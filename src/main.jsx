@@ -6,10 +6,8 @@ import App from './App'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Gallery from './gallery'
-const api_key = process.env.VITE_APP_ANON_KEY
-const supabaseurl = process.env.VITE_APP_URL
-console.log('API Key:', api_key);
-console.log('Supabase URL:', supabaseurl);
+const api_key = import.meta.env.VITE_API_KEY
+const supabaseurl = import.meta.env.VITE_URL
 
 
 import { createClient } from '@supabase/supabase-js'
