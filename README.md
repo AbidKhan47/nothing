@@ -1,6 +1,6 @@
-# Web Development Project 7 - *Name of App Here*
+# Web Development Project 7 - *Crewmate Creator*
 
-Submitted by: **Crew Creator**
+Submitted by: **Evan Haque**
 
 This web app: **With this app, you and your friends can create a crew to go off into space**
 
