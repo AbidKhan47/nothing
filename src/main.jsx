@@ -6,6 +6,7 @@ import App from './App'
 import './index.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Gallery from './gallery'
+import Among from './pictures'
 const api_key = import.meta.env.VITE_API_KEY
 const supabaseurl = import.meta.env.VITE_URL
 
@@ -16,13 +17,13 @@ import Update from './update'
 const supabase = createClient( supabaseurl, api_key)
 
 const among = {
-  red: "public/sus/61d183263a856e0004c6334a.png",
-  blue: "public/sus/among_us_player_blue_icon_156941.png",
-  green: "public/sus/61d183753a856e0004c6334c.png",
-  yellow: "public/sus/Yellow.webp",
-  purple: "public/sus/9kvk25sh2sn51.png",
-  orange: "public/sus/ee0b8322db7fb7939469a67e889318d4.png",
-  pink: "public/sus/e51f80397c0915b1a688a25d52e82648.png"
+  red: Among.red,
+  blue: Among.blue,
+  green: Among.green,
+  yellow: Among.yellow,
+  purple: Among.purple,
+  orange: Among.orange,
+  pink: Among.pink
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
